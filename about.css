@@ -1,0 +1,22 @@
+h1{
+    color: #681bd5;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+}
+
+.welcome-hero1 {
+    margin-bottom: 2.3rem;
+    background-color: whitesmoke;
+    object-fit: cover;
+    height: auto;
+    width: auto;
+}
