@@ -3,7 +3,7 @@ let myAccountBalance = parseInt(document.getElementById("myAccountBalance").inne
 // Send Money
 function sendMoney(){
    var enterName = document.getElementById("enterName").value;
-   var name = ["naxu","Golu","Ballu"];
+   var name = ["naxu","G","B"];
 
    for(let i=0;i<10;i++){
       if(enterName!=name[0] && enterName!=name[1] && enterName!=name[2] ){
